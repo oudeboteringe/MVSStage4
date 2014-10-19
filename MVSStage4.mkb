@@ -1,0 +1,28 @@
+#!/usr/bin/env mkb
+
+options
+{
+    module_path="C:/Marmalade/7.4/examples/GameTutorial/CPP/modules"
+}
+
+includepaths
+{
+    include
+}
+
+files
+{
+    [source]
+    (source)
+    MVSStage4_main.cpp
+	
+}
+
+subprojects
+{
+    iwutil
+}
+
+deployment
+{
+}
