@@ -10,8 +10,44 @@
 #ifndef IW_APP_VERSION
 #   define IW_APP_VERSION "1.0"
 #endif
+#ifndef IW_ASSERTION_CHANNEL_2D
+#   define IW_ASSERTION_CHANNEL_2D 1
+#endif
+#ifndef IW_ASSERTION_CHANNEL_IW_2DSCENEGRAPH
+#   define IW_ASSERTION_CHANNEL_IW_2DSCENEGRAPH 1
+#endif
+#ifndef IW_ASSERTION_CHANNEL_PVRTEXTOOL
+#   define IW_ASSERTION_CHANNEL_PVRTEXTOOL 1
+#endif
 #ifndef IW_DEBUG
 #   define IW_DEBUG 1
+#endif
+#ifndef IW_MKF_IW2D
+#   define IW_MKF_IW2D 1
+#endif
+#ifndef IW_MKF_IW2DSCENEGRAPH
+#   define IW_MKF_IW2DSCENEGRAPH 1
+#endif
+#ifndef IW_MKF_IW2DSCENEGRAPHCORE
+#   define IW_MKF_IW2DSCENEGRAPHCORE 1
+#endif
+#ifndef IW_MKF_IWGEOM
+#   define IW_MKF_IWGEOM 1
+#endif
+#ifndef IW_MKF_IWGL
+#   define IW_MKF_IWGL 1
+#endif
+#ifndef IW_MKF_IWGX
+#   define IW_MKF_IWGX 1
+#endif
+#ifndef IW_MKF_IWGXFONT
+#   define IW_MKF_IWGXFONT 1
+#endif
+#ifndef IW_MKF_IWRESMANAGER
+#   define IW_MKF_IWRESMANAGER 1
+#endif
+#ifndef IW_MKF_IWTWEEN
+#   define IW_MKF_IWTWEEN 1
 #endif
 #ifndef IW_MKF_IWUTIL
 #   define IW_MKF_IWUTIL 1
@@ -22,6 +58,18 @@
 #ifndef IW_MKF_LIBPNG
 #   define IW_MKF_LIBPNG 1
 #endif
+#ifndef IW_MKF_MARMALADEEXAMPLERESOURCES
+#   define IW_MKF_MARMALADEEXAMPLERESOURCES 1
+#endif
+#ifndef IW_MKF_PVRTEXTOOL
+#   define IW_MKF_PVRTEXTOOL 1
+#endif
+#ifndef IW_MKF_SOUNDENGINE
+#   define IW_MKF_SOUNDENGINE 1
+#endif
+#ifndef IW_MKF_TINICONV
+#   define IW_MKF_TINICONV 1
+#endif
 #ifndef IW_MKF_ZLIB
 #   define IW_MKF_ZLIB 1
 #endif
@@ -30,6 +78,15 @@
 #endif
 #ifndef IW_SDK
 #   define IW_SDK 1
+#endif
+#ifndef IW_TRACE_CHANNEL_IW_2DSCENEGRAPH
+#   define IW_TRACE_CHANNEL_IW_2DSCENEGRAPH 1
+#endif
+#ifndef IW_TRACE_CHANNEL_PVRTEXTOOL
+#   define IW_TRACE_CHANNEL_PVRTEXTOOL 1
+#endif
+#ifndef IW_TRACE_CHANNEL_PVRTEXTOOL_VERBOSE
+#   define IW_TRACE_CHANNEL_PVRTEXTOOL_VERBOSE 2
 #endif
 #ifndef IW_USE_ASSERTIONS
 #   define IW_USE_ASSERTIONS 1
